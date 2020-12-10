@@ -3,7 +3,7 @@ import pyautogui
 import sys
 
 def SendScript(filename: str):
-	time.sleep(2)
+	time.sleep(3)
 	with open(filename) as f:
 		lines = f.readlines()
 	for line in lines:
